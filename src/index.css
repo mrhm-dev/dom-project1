@@ -1,0 +1,40 @@
+html, body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    color: #222;
+}
+
+.single-task {
+    min-height: 75px;
+    padding: 5px;
+    background: salmon;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.task-control-panel {
+    width: 100%;
+    min-height: 40px;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.color-circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.inner-textarea {
+    resize: none;
+    position: absolute;
+    background: #ddd;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.35);
+    top: 0;
+    left: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    padding: 5px;
+}
